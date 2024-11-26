@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Page d'accueil -->
+  <url>
+    <loc>https://www.votresite.com/index.html</loc>
+    <lastmod>2024-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- À propos -->
+  <url>
+    <loc>https://www.votresite.com/about.html</loc>
+    <lastmod>2024-04-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://www.votresite.com/contact.html</loc>
+    <lastmod>2024-04-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Fonctionnalités -->
+  <url>
+    <loc>https://www.votresite.com/features.html</loc>
+    <lastmod>2024-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Légal -->
+  <url>
+    <loc>https://www.votresite.com/legal.html</loc>
+    <lastmod>2024-04-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Actualités -->
+  <url>
+    <loc>https://www.votresite.com/news.html</loc>
+    <lastmod>2024-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Tarification -->
+  <url>
+    <loc>https://www.votresite.com/pricing.html</loc>
+    <lastmod>2024-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Confidentialité -->
+  <url>
+    <loc>https://www.votresite.com/privacy.html</loc>
+    <lastmod>2024-04-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Produits -->
+  <url>
+    <loc>https://www.votresite.com/products.html</loc>
+    <lastmod>2024-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Succès -->
+  <url>
+    <loc>https://www.votresite.com/success.html</loc>
+    <lastmod>2024-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Conditions d'utilisation -->
+  <url>
+    <loc>https://www.votresite.com/terms.html</loc>
+    <lastmod>2024-04-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
