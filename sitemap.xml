@@ -89,4 +89,12 @@
   <priority>0.8</priority>
   </url>
 
+  <!-- Page d'inscription -->
+  <url>
+  <loc>https://www.zigouplex.tech/signup</loc>
+  <lastmod>2024-04-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  </url>
+
 </urlset>
