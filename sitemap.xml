@@ -3,90 +3,90 @@
 
   <!-- Page d'accueil -->
   <url>
-    <loc>https://www.votresite.com/index.html</loc>
+    <loc>https://www.zigouplex.tech/</loc>
     <lastmod>2024-04-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- À propos -->
+  <!-- Page de contact -->
   <url>
-    <loc>https://www.votresite.com/about.html</loc>
+    <loc>https://www.zigouplex.tech/contact</loc>
     <lastmod>2024-04-27</lastmod>
-    <changefreq>yearly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Contact -->
+  <!-- Page de mentions légales -->
   <url>
-    <loc>https://www.votresite.com/contact.html</loc>
-    <lastmod>2024-04-27</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
+  <loc>https://www.zigouplex.tech/legal</loc>
+  <lastmod>2024-04-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
   </url>
 
-  <!-- Fonctionnalités -->
+  <!-- Page de politique de confidentialité -->
   <url>
-    <loc>https://www.votresite.com/features.html</loc>
-    <lastmod>2024-04-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+  <loc>https://www.zigouplex.tech/privacy</loc>
+  <lastmod>2024-04-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
   </url>
 
-  <!-- Légal -->
+  <!-- Page de conditions générales d'utilisation -->
   <url>
-    <loc>https://www.votresite.com/legal.html</loc>
-    <lastmod>2024-04-27</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+  <loc>https://www.zigouplex.tech/terms</loc>
+  <lastmod>2024-04-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
   </url>
 
-  <!-- Actualités -->
+  <!-- Page de features -->
   <url>
-    <loc>https://www.votresite.com/news.html</loc>
-    <lastmod>2024-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+  <loc>https://www.zigouplex.tech/features</loc>
+  <lastmod>2024-04-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
   </url>
 
-  <!-- Tarification -->
+  <!-- Page de pricing -->
   <url>
-    <loc>https://www.votresite.com/pricing.html</loc>
-    <lastmod>2024-04-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+  <loc>https://www.zigouplex.tech/pricing</loc>
+  <lastmod>2024-04-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
   </url>
 
-  <!-- Confidentialité -->
+  <!-- Page de news -->
   <url>
-    <loc>https://www.votresite.com/privacy.html</loc>
-    <lastmod>2024-04-27</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+  <loc>https://www.zigouplex.tech/news</loc>
+  <lastmod>2024-04-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
   </url>
 
-  <!-- Produits -->
+  <!-- Page de produits -->
   <url>
-    <loc>https://www.votresite.com/products.html</loc>
-    <lastmod>2024-04-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+  <loc>https://www.zigouplex.tech/products</loc>
+  <lastmod>2024-04-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
   </url>
 
-  <!-- Succès -->
+  <!-- Page à propos -->
   <url>
-    <loc>https://www.votresite.com/success.html</loc>
-    <lastmod>2024-04-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+  <loc>https://www.zigouplex.tech/about</loc>
+  <lastmod>2024-04-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
   </url>
 
-  <!-- Conditions d'utilisation -->
+  <!-- Page de succès -->
   <url>
-    <loc>https://www.votresite.com/terms.html</loc>
-    <lastmod>2024-04-27</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+  <loc>https://www.zigouplex.tech/success</loc>
+  <lastmod>2024-04-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
   </url>
 
 </urlset>
