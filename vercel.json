@@ -56,7 +56,10 @@
       "source": "/products",
       "destination": "/products.html"
     },
-
+    {
+      "source": "/signup",
+      "destination": "/signup.html"
+    },
     {
       "source": "/:slug",
       "destination": "/:slug.html"
