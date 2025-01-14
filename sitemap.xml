@@ -97,4 +97,25 @@
   <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://www.zigouplex.tech/news2</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.zigouplex.tech/news3</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.zigouplex.tech/news4</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>

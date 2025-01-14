@@ -18,12 +18,12 @@
     <meta property="og:description" content="Discover Zigouplex's mission to enhance code quality, efficiency, and maintainability. Learn about our approach, industry insights, and the future of development." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://zigouplex.tech/about" />
-    <meta property="og:image" content="https://zigouplex.tech/img/og-image.png" />
+    <meta property="og:image" content="https://zigouplex.tech/img/webp/og-image.webp" />
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="About Zigouplex - Revolutionizing Code Quality">
     <meta name="twitter:description" content="Zigouplex elevates code review by combining technology and linguistic precision. Learn how we support developers in delivering high-quality code.">
-    <meta name="twitter:image" content="https://zigouplex.tech/img/twitter-image.png">
+    <meta name="twitter:image" content="https://zigouplex.tech/img/webp/twitter-image.webp">
 
     <link rel="canonical" href="https://zigouplex.tech/about">
 
@@ -48,7 +48,7 @@
     <meta name="author" content="Zigouplex the first" />
     <meta name="generator" content="Eleventy v2.0.0" />
     <meta name="HandheldFriendly" content="true" />
-    <title>About</title>
+    <title>About Zigouplex - Revolutionizing Code Quality</title>
     <link rel="stylesheet" href="css/theme.min.css" />
 
     <style>
@@ -518,45 +518,10 @@
           </div>
         </div>
       </div>
-      <div class="container text-center small py-vh-2 border-top border-dark">
-        Designed by
-        <a
-          href="https://templatedeck.com"
-          class="link-fancy link-fancy-light"
-          target="_blank"
-          rel="noopener noreferrer"
-          >templatedeck.com</a
-        >
-      </div>
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/aos.js"></script>
-    <script>
-      AOS.init({
-        duration: 800, // values from 0 to 3000, with step 50ms
-      });
-    </script>
-    <script>
-      let scrollpos = window.scrollY;
-      const header = document.querySelector(".navbar");
-      const header_height = header.offsetHeight;
-
-      const add_class_on_scroll = () =>
-        header.classList.add("scrolled", "shadow-sm");
-      const remove_class_on_scroll = () =>
-        header.classList.remove("scrolled", "shadow-sm");
-
-      window.addEventListener("scroll", function () {
-        scrollpos = window.scrollY;
-
-        if (scrollpos >= header_height) {
-          add_class_on_scroll();
-        } else {
-          remove_class_on_scroll();
-        }
-        console.log(scrollpos);
-      });
-    </script>
+    <script src="js/script.js"></script>
   </body>
 </html>
