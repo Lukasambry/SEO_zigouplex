@@ -35,6 +35,11 @@ document.addEventListener('DOMContentLoaded', function () {
         if (prevButton) {
             prevButton.style.display = currentArticle === 1 ? 'none' : 'block';
         }
+        let maxArticles = 5;
+
+        if (nextButton && currentArticle === maxArticles) {
+            nextButton.style.display = 'none';
+        }
     };
 
     updateNavigationButtons();
