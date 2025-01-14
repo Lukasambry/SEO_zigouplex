@@ -4,26 +4,39 @@ AOS.init({
 
 let currentArticle = 1;
 
-function navigateArticle(direction) {
-    const totalArticles = document.querySelectorAll('.article').length;
-    document.getElementById(`article${currentArticle}`).style.display = 'none';
-    currentArticle += direction;
-
-    if (currentArticle < 1) {
-        currentArticle = totalArticles;
-    } else if (currentArticle > totalArticles) {
-        currentArticle = 1;
-    }
-
-    document.getElementById(`article${currentArticle}`).style.display = 'block';
-    history.pushState(null, '', `/news${currentArticle > 1 ? currentArticle : ''}`);
+function showArticle(index) {
+    const articles = document.querySelectorAll('.row.d-flex.align-items-start');
+    articles.forEach((article, i) => {
+        article.style.display = i === index ? 'block' : 'none';
+    });
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+    const articles = document.querySelectorAll('.row.d-flex.align-items-start');
+    let currentArticleIndex = 0;
+
+    document.getElementById('prev-article').addEventListener('click', function () {
+        if (currentArticleIndex > 0) {
+            currentArticleIndex--;
+            showArticle(currentArticleIndex);
+        }
+    });
+
+    document.getElementById('next-article').addEventListener('click', function () {
+        if (currentArticleIndex < articles.length - 1) {
+            currentArticleIndex++;
+            showArticle(currentArticleIndex);
+        }
+    });
+
+    showArticle(currentArticleIndex);
+});
 
 window.addEventListener('load', () => {
     const url = new URL(window.location.href);
     const articleNumber = parseInt(url.pathname.replace('/news', '')) || 1;
     currentArticle = articleNumber;
-    document.getElementById(`article${currentArticle}`).style.display = 'block';
+    showArticle(currentArticle - 1);
 });
 
 let scrollpos = window.scrollY;
